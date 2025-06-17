@@ -1,7 +1,7 @@
 .header {
     padding: 80px; /* some padding */
     text-align: center; /* center the text */
-    background-image: url('/WEB/test.jpg'); /* اضافه کردن تصویر به عنوان پس‌زمینه */
+    background-image: url('test.jpg'); /* اضافه کردن تصویر به عنوان پس‌زمینه */
     background-size: cover; /* برای پوشش کامل هدر */
     background-position: center; /* مرکز قرار دادن تصویر */
     color: white; /* white text color */
