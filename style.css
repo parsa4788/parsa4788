@@ -59,16 +59,35 @@
     padding: 50px; /* Some padding */
     font-size: 20px;
   }
-  
   /* Main column */
   .main {
     flex: 50%; /* Set the width of the main content */
     background-color: white; /* White background color */
     padding: 20px; /* Some padding */
+    font-size: 25px;
   }
   .footer {
-    padding: 20px; /* Some padding */
-    text-align: center; /* Center text*/
-    background: #333232; /* Grey background */
-    color: #ddd;
-  }
+    background-color: #242424;
+    color: white;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-info, .footer-links, .footer-contact, .footer-social {
+    width: 25%;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.special-link{
+  color: #ddd;
+}
