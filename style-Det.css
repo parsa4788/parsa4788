@@ -1,7 +1,7 @@
 .header {
     padding: 80px; /* some padding */
     text-align: center; /* center the text */
-    background-image: url('test.jpg'); /* اضافه کردن تصویر به عنوان پس‌زمینه */
+    background-image: url('workshop2.png'); /* اضافه کردن تصویر به عنوان پس‌زمینه */
     background-size: cover; /* برای پوشش کامل هدر */
     background-position: center; /* مرکز قرار دادن تصویر */
     color: white; /* white text color */
@@ -54,7 +54,7 @@
   /* Create two unequal columns that sits next to each other */
   /* Sidebar/left column */
   .side {
-    flex: 50%; /* Set the width of the sidebar */
+    flex: 100%; /* Set the width of the sidebar */
     background-color: #f1f1f1; /* Grey background color */
     padding: 50px; /* Some padding */
     font-size: 20px;
@@ -62,7 +62,7 @@
   
   /* Main column */
   .main {
-    flex: 50%; /* Set the width of the main content */
+    flex: 0%; /* Set the width of the main content */
     background-color: white; /* White background color */
     padding: 20px; /* Some padding */
   }
