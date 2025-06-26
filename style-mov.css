@@ -1,48 +1,45 @@
 .header {
-  padding: 80px; /* some padding */
-  text-align: center; /* center the text */
-  background-image: url('movie.jpg'); /* اضافه کردن تصویر به عنوان پس‌زمینه */
-  background-size: cover; /* برای پوشش کامل هدر */
-  background-position: center; /* مرکز قرار دادن تصویر */
-  color: white; /* white text color */
+  padding: 80px; 
+  text-align: center; 
+  background-image: url('movie.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  color: white; 
 }
 
-/* Increase the font size of the <h1> element */
+
 .header h1 {
   font-size: 60px;
 }
 .navbar {
-  overflow: hidden; /* Hide overflow */
-  background-color: #333; /* Dark background color */
+  overflow: hidden; 
+  background-color: #333; 
 }
 
-/* Style the navigation bar links */
+
 .navbar a {
-  float: left; /* Make sure that the links stay side-by-side */
-  display: block; /* Change the display to block, for responsive reasons (see below) */
-  color: white; /* White text color */
-  text-align: center; /* Center the text */
-  padding: 14px 20px; /* Add some padding */
-  text-decoration: none; /* Remove underline */
+  float: left; 
+  display: block; 
+  color: white; 
+  text-align: center; 
+  padding: 14px 20px; 
+  text-decoration: none; 
 }
 
 
-/* Right-aligned link */
 .navbar a.right {
-  float: right; /* Float a link to the right */
+  float: right; 
 }
 
-/* Change color on hover/mouse-over */
 .navbar a:hover {
-  background-color: #ddd; /* Grey background color */
-  color: black; /* Black text color */
+  background-color: #ddd; 
+  color: black; 
 }
-/* Ensure proper sizing */
+
 * {
   box-sizing: border-box;
 }
 
-/* Column container */
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -51,35 +48,34 @@
   margin-right: 50px;
   margin-top: 10px;  
 }
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
+
 .side {
-  flex: 100%; /* Set the width of the sidebar */
-  background-color: #f1f1f1; /* Grey background color */
-  padding: 50px; /* Some padding */
+  flex: 100%; 
+  background-color: #f1f1f1; 
+  padding: 50px; 
   font-size: 20px;
 }
 .book {
-  display: flex; /* استفاده از فِلِکس برای چینش */
-  flex-direction: column; /* چینش عمودی */
-  align-items: center; /* تراز کردن عمودی محتوا */
-  margin-bottom: 20px; /* فاصله بین کتاب‌ها */
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  margin-bottom: 20px; 
 }
 
 .highlight {
   color: rgb(4, 61, 102);
-  display: block; /* نمایش عنوان کتاب به صورت بلوک */
-  margin-bottom: 20px; /* فاصله بین عنوان و تصویر */
+  display: block; 
+  margin-bottom: 20px; 
 }
 
 .book-description {
-  flex: 1; /* اجازه به توضیحات برای پر کردن فضای باقی‌مانده */
+  flex: 1; 
 }
-/* Main column */
+
 .main {
-  flex: 0%; /* Set the width of the main content */
-  background-color: white; /* White background color */
-  padding: 20px; /* Some padding */
+  flex: 0%; 
+  background-color: white; 
+  padding: 20px; 
   font-size: 25px;
 }
 .footer {
